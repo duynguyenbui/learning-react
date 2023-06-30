@@ -15,5 +15,22 @@
     "tabWidth": 4,
     "trailingComma": "all",
     "useTabs": false,
-    "vueIndentScriptAndStyle": false
-}
+    "vueIndentScriptAndStyle": false,
+    "overrides": [
+      {
+        "files": "*.css",
+        "options": {
+          "parser": "css",
+          "singleQuote": false
+        }
+      },
+      {
+        "files": "*.scss",
+        "options": {
+          "parser": "scss",
+          "singleQuote": false
+        }
+      }
+    ]
+  }
+  
